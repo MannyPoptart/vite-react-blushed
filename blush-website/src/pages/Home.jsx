@@ -5,13 +5,13 @@ import '../pages/Home.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="Home">
       
       <Header />
 
       <Navbar />
       
-      <body className="Home">
+      <section className="Content">
         
         <h1>Home Page</h1>
 
@@ -27,7 +27,7 @@ function App() {
           <li>Pink in Design</li>
         </ul>
 
-      </body>
+      </section>
       
 
       <Footer />

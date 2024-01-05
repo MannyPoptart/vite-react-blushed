@@ -12,7 +12,7 @@ function Guidelines
 
         <Navbar className="Menu" />
 
-        <body className="guideBody">
+        <section className="guideBody">
             
             <h1>Guidelines</h1>
     
@@ -28,7 +28,7 @@ function Guidelines
                 
             </ul>
         
-        </body>
+        </section>
 
         <Footer className="Footer" />
 
