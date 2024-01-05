@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Petit+Formal+Script&display=swap');
+
+*{margin: 0; padding: 0}
+
+.Guidelines .Footer {
+    color: white;
+    background-color: lightcoral;
+    justify-content: space-between;
+    padding: 10px 16px;
+    margin: 0; 
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 18pt;
+    font-weight: bold;
+    margin-bottom: auto;
+}
+
+.guideBody {
+    justify-content: space-between;
+    padding: 4cap;
+    margin: 0;
+    background-image: linear-gradient(180deg, pink 0%,  50%, lightcoral 100%);
+
+}
+
+.Guidelines .Header {
+    background-color: pink;
+    justify-content: space-between;
+    padding: 50px 0;
+    margin: 0; 
+}
+
+.Menu ul{
+    background-color: pink;
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    margin: 0;
+    font-size: 48pt;
+    justify-content: center;
+}
+
+.Menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.Menu li a:hover {
+    background-color: #d74894;
+    padding: 0px;
+    margin: 0px;
+}
+
+.Menu li a:active {
+    background-color: #ff264a;
+}
+
+.Guidelines .Title h1 {
+    font-family: 'Petit Formal Script', cursive;
+    text-align: center;
+    letter-spacing: 2cap;
+    color: white;
+    font-size: 80pt;
+    font-weight: bold;
+    -webkit-text-stroke-color: #d74894;
+    -webkit-text-stroke-width: 0.8pt;
+}
